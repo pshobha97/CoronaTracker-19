@@ -1,0 +1,154 @@
+/*navbar*/
+*{
+margin:0;
+padding:0;
+}
+.navbar{
+position: fixed;
+top: 0;
+width: 100%;
+background-color:#0454a4!important;
+z-index:4;
+opacity:0.7;
+
+
+}
+.heading{
+padding:20px;
+}
+
+.modal-body {
+  overflow-x: auto;
+  overflow-y: auto;
+}
+/*body*/
+.container-fluid{
+background-color: #e8fbfe;
+margin-top:57px;
+width:100%;
+padding-bottom:5px;
+
+
+
+
+}
+.world_row{
+margin-top:50px;
+}
+.search_container{
+margin-top: 300px;
+background-color:#000000;
+
+}
+.bg-image{
+width:100%;
+height:auto;
+background-image: url('/static/css/images/corona2.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+/*/*cards*/
+
+.row{
+
+justify-content:space-evenly;
+}
+
+.card{
+border:1px solid #0454a4;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card:hover{
+background-color:#e2e2e2;
+cursor:pointer;
+}
+.confirm{
+text-align:center;
+background-color:#ff073a;
+color:white;
+}
+.actives{
+text-align:center;
+background-color:#007bff;
+color:white;
+}
+.recovered{
+text-align:center;
+background-color:#28a745;
+color:white;
+}
+.death{
+text-align:center;
+background-color:#6c757d;
+color:white;
+}
+.migrate{
+text-align:center;
+background-color:orange;
+color:white;
+}
+
+
+/*india_container*/
+.main_container{
+margin-top:60px;
+
+}
+.india_container{
+margin-top:50px;
+}
+
+/*about container*/
+div .about{
+margin-top: 60px;
+background-color:#5b5959;
+color:white;
+
+}
+.image_right{
+margin-left: 120px;
+    margin-top: 94px;
+    width: 450px;
+    height: 320px;
+}
+.image_left{
+margin-right: 120px;
+    margin-top: 175px;
+    width: 450px;
+    height: 320px;
+}
+
+.contact_container{
+margin-top:100px;
+background-color:#223951;
+color:#ffffff;
+padding:30px;
+
+width:500px;
+position:absolute;
+}
+.h6{
+margin-top:65px;
+}
+.contact{
+right:0px;
+}
+footer{
+
+    margin-top: -16px;
+    position:relative
+    clear: both;
+    color:#ffffff;
+    z-index:1;
+}
+.a_f{
+padding:8px;
+}
+.contact_footer{
+margin-top:580px;
+width:auto:
+position:fixed;
+
+}
